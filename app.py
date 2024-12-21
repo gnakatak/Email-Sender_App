@@ -14,7 +14,7 @@ st.title("Formulário com Envio de E-mails")
 st.subheader("Preencha as informações abaixo para enviar os dados por e-mail.")
 
 # Carregar o módulo encrypt.pyc
-spec = importlib.util.spec_from_file_location("encrypt", "__pycache__\\encrypt.cpython-312.pyc")
+spec = importlib.util.spec_from_file_location("encrypt", "__pycache__/encrypt.cpython-312.pyc")
 encrypt = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(encrypt)
 
